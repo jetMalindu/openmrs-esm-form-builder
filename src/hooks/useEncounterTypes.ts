@@ -11,7 +11,7 @@ export const useEncounterTypes = () => {
 
   return {
     encounterTypes: data?.data?.results ?? [],
-    isEncounterTypesLoading: !error && !data,
     encounterTypesError: error,
+    isLoadingEncounterTypes: !error && !data,
   };
 };
