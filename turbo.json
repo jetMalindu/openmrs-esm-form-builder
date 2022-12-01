@@ -18,6 +18,9 @@
     },
     "verify": {
       "outputs": []
+    },
+    "extract-translations": {
+      "outputs": ["translations/**"]
     }
   }
 }
